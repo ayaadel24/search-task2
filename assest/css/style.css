@@ -1,0 +1,73 @@
+section
+{
+  width: 60%;
+  display:flex;
+  justify-content:space-around
+}
+.task
+{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  transform: translate(30px);
+ }
+ .task:hover
+ {
+  transform: translate(30px,30px );
+ }
+ .card
+ {
+  width: 100px;
+  height: 100px;
+  background-color:cornflowerblue;
+  
+ }
+ .card:hover
+ {
+  transform: rotate(45deg);
+ }
+ .part
+ {
+  width: 100px;
+  height: 100px;
+  background-color:hotpink;
+  
+ }
+ .part:hover
+ {
+  transform: scale(2,2);
+ }
+ .section
+ {
+  width: 100px;
+  height: 100px;
+  background-color:navy;
+ 
+ }
+ .section:hover
+ {
+  transform: skew(45deg);
+ }
+ .link
+ {
+  width: 100px;
+  height: 100px;
+  background-color:white;
+  box-shadow:10px 10px 10px darkblue;
+ }
+ .link:hover
+ {
+  box-shadow:10px 10px 10px lightblue;
+ }
+ .list
+ {
+  width: 100px;
+  height: 100px;
+  background-color: darkgoldenrod;
+ 
+ }
+ .list:hover
+ {
+  transform: translate(40px,40px ) skew(45deg)  rotate(45deg) scale(1,1);
+  box-shadow:10px 10px 10px darkblue; 
+ }
